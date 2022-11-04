@@ -1,12 +1,11 @@
 import React from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
-//import App from './pages/Home'
 import reportWebVitals from './reportWebVitals'
 import Survey from './pages/Survey'
 import Home from './pages/Home'
 import Header from './components/index'
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 
 const rootElement = document.getElementById('root')
 const root = createRoot(rootElement)

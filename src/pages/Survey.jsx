@@ -1,7 +1,9 @@
+import '../Styles/index.css'
+
 function Survey() {
   return (
     <div>
-      <h1>Questionnaire Camille 🧮</h1>
+      <h1>A propos Camille 🧮</h1>
     </div>
   )
 }
