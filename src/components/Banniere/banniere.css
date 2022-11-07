@@ -1,9 +1,20 @@
+
+.Banner {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
 .textBanner {
     position: absolute;
     top: 25%;
     left: 25%;
     color: white; 
     font-size:40px;   
+    padding: 16px;
 }
 
 

@@ -3,7 +3,7 @@ import './banniere.css'
 
 function banniereElem() {
   return (
-    <div>
+    <div className="Banner">
       <img className="imgBanner" src={banniere} alt="banniere" />
       <p className="textBanner">Chez vous, partout et ailleurs</p>
     </div>
