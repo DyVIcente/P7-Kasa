@@ -1,0 +1,14 @@
+.textBanner {
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    color: white; 
+    font-size:40px;   
+}
+
+
+.imgBanner {
+    width: 100%;
+    filter : brightness(50%);
+    border-radius: 25px;
+}

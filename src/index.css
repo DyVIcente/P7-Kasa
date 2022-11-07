@@ -12,10 +12,4 @@ code {
     monospace;
 }
 
-a:link {
-  text-decoration: none;
-  color: orange;
-}
-a:visited {
-  text-decoration: none;
-}
+

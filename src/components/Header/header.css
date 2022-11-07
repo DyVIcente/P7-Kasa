@@ -1,0 +1,20 @@
+.navBar {
+    display: flex;
+    color: orange;
+    text-decoration: none;
+    text-align: right;
+    padding: 30px;
+    align-content: center;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+a:visited {
+    color: #FF6060;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+}
+

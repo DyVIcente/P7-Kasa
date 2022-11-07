@@ -1,0 +1,23 @@
+
+
+.foot {
+    background-color: black;
+    height: 100px;
+}
+
+.logoFoot {
+    height: 30%;
+    filter:brightness(10);
+    position: relative;
+    left: 50%;
+    top: 20%;
+}
+
+.textFoot {
+    color: white;
+    position: relative;
+    left: 43%;
+    top: 10%;
+    width: fit-content;
+
+}

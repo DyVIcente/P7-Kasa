@@ -1,0 +1,22 @@
+.titleError {
+    text-align: center;
+    color: #FF6060;
+    font-size: 200px;
+    margin: 0;
+}
+
+.textError {
+    text-align: center;
+    color: #FF6060;
+    font-size: 35px;
+}
+
+.linkBackAccueil{
+    text-align: center;
+    color: #FF6060;
+    font-size: 20px;
+    text-decoration: underline;
+    margin-bottom: 50px;
+    margin-top: 50px;
+
+}
