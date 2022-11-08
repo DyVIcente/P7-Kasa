@@ -1,5 +1,10 @@
 function Home() {
-  return <bannierElem></bannierElem>
+  return (
+    <div>
+      <bannierElem></bannierElem>
+      <Card></Card>
+    </div>
+  )
 }
 
 export default Home

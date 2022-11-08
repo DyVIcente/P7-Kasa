@@ -1,13 +1,12 @@
-import banniere from '../../assets/banniere.png'
+import { Component } from 'react'
 import './banniere.css'
 
-function banniereElem() {
-  return (
-    <div className="Banner">
-      <img className="imgBanner" src={banniere} alt="banniere" />
-      <p className="textBanner">Chez vous, partout et ailleurs</p>
-    </div>
-  )
+export default class banniereElem extends Component {
+  render() {
+    return (
+      <div className="Banner">
+        <p className="textBanner">Chez vous, partout et ailleurs</p>
+      </div>
+    )
+  }
 }
-
-export default banniereElem

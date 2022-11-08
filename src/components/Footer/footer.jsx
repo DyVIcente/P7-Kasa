@@ -1,13 +1,14 @@
 import './footer.css'
 import kasa from '../../assets/kasalogo.png'
+import { Component } from 'react'
 
-function Footer() {
-  return (
-    <div className="foot">
-      <img className="logoFoot" src={kasa} alt="logo kasa" />
-      <p className="textFoot">© 2020 Kasa. All rights reserved</p>
-    </div>
-  )
+export default class Footer extends Component {
+  render() {
+    return (
+      <footer className="foot">
+        <img className="logoFoot" src={kasa} alt="logo kasa" />
+        <p className="textFoot">© 2020 Kasa. All rights reserved</p>
+      </footer>
+    )
+  }
 }
-
-export default Footer
