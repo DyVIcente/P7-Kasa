@@ -1,3 +1,40 @@
+
+
+.losCardos{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    padding: 50px;
+    
+}
+
 .cards {
-    width: 20px;
+    
+    border-radius: 10px;
+	max-height: 340px;
+    max-width: 340px;
+	position: relative;
+    overflow: hidden;
+    
+
+    
+}
+
+.imgCards{
+    filter: brightness(50%);
+}
+
+.imgCards:hover{
+    filter: brightness(100%);
+}
+
+.titleCards {
+		position: absolute;
+		color: white;
+        font-size: 18px;
+		font-weight: 500;
+        left: 20px;
+        top: 250px;
+        line-height: 25.67px;
+		   
 }
