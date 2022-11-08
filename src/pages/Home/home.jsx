@@ -1,10 +1,15 @@
-function Home() {
-  return (
-    <div>
-      <bannierElem></bannierElem>
-      <Card></Card>
-    </div>
-  )
-}
+import { Component } from 'react'
+import Banner from '../../components/Banniere/banniere'
+import Card from '../../components/Cards/card'
 
-export default Home
+export default class Home extends Component {
+  render() {
+    return (
+      <main>
+        <Banner> </Banner>
+
+        <Card></Card>
+      </main>
+    )
+  }
+}

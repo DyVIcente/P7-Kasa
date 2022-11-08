@@ -1,7 +1,7 @@
 import { Component } from 'react'
 import './banniere.css'
 
-export default class banniereElem extends Component {
+export default class Banner extends Component {
   render() {
     return (
       <div className="Banner">
