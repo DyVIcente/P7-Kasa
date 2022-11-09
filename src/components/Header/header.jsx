@@ -10,7 +10,6 @@ export default class Header extends Component {
         <img src={kasa} alt="logo kasa" />
         <Link to="/">Accueil</Link>
         <Link to="/about">A propos</Link>
-        <Link to="/logement">Logement</Link>
       </nav>
     )
   }

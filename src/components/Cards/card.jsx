@@ -10,7 +10,7 @@ export default class Card extends Component {
         {Data &&
           Data.map((data) => {
             return (
-              <Link className="cards" to={data.id} key={data.id}>
+              <Link className="cards" to={'logement/' + data.id} key={data.id}>
                 <img className="imgCards" src={data.cover} alt=""></img>
                 <p className="titleCards">{data.title}</p>
               </Link>
