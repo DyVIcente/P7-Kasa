@@ -1,0 +1,63 @@
+
+  .btn-menu {
+    margin-bottom: 100px;
+    margin-left: 50px;
+  }
+  
+  .menu {
+    
+    position: absolute;
+    list-style-type: none;
+    margin: 5px 0;
+    padding: 0;
+    width: 150px;
+  }
+  
+  .menu > li {
+    margin: 0;
+  
+    background-color: white;
+  }
+  
+  .menu > li:hover {
+    background-color: lightgray;
+  }
+  
+  .menu > li > button {
+    width: 582px;
+    height: 100%;
+    
+    border-radius: 10px;
+    background: #F6F6F6;
+    border: none;
+    padding: 5px;
+
+    font: inherit;
+    cursor: pointer;
+  }
+
+  .btn {
+    background-color: #FF6060;
+    width: 582px;
+    height: 52px;
+    border-radius: 10px;
+    border: none;
+  }
+
+  .btn-txt {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25.67px;
+    color: white;
+    position: relative;
+    right: 210px;
+    bottom: 5px;
+   
+  }
+
+  .menu-item-txt {
+    color: #FF6060;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25.67px;
+  }
