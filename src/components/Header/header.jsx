@@ -7,7 +7,7 @@ export default class Header extends Component {
   render() {
     return (
       <nav className="navBar">
-        <img src={kasa} alt="logo kasa" />
+        <img className="logoNav" src={kasa} alt="logo kasa" />
         <Link to="/">Accueil</Link>
         <Link to="/about">A propos</Link>
       </nav>

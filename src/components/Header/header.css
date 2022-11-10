@@ -3,10 +3,11 @@
     color: orange;
     text-decoration: none;
     text-align: right;
-    padding: 30px;
     align-content: center;
     justify-content: space-around;
     align-items: flex-end;
+    margin: 20px;
+    text-transform: uppercase;
 }
 
 a:visited {
@@ -16,5 +17,10 @@ a:visited {
 
 a{
     text-decoration: none;
+}
+
+.logoNav {
+    width: 147px;
+    height: 47px;
 }
 

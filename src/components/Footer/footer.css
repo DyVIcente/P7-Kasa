@@ -2,22 +2,27 @@
 
 .foot {
     background-color: black;
-    height: 100px;
+    display: flex;
+    flex-direction: column;
 }
 
 .logoFoot {
-    height: 30%;
+    height: 39.44px;
+    width: 122px;
     filter:brightness(10);
     position: relative;
-    left: 50%;
-    top: 20%;
+    margin-top: 62px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
 }
 
 .textFoot {
+    margin-bottom: 62px;
+    margin-left: auto;
+    margin-right: auto;
     color: white;
-    position: relative;
-    left: 43%;
-    top: 10%;
-    width: fit-content;
-
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 17.11px;
 }
