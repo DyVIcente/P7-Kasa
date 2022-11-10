@@ -4,10 +4,10 @@ import { Component } from 'react'
 export default class LogementTitle extends Component {
   render() {
     return (
-      <>
+      <div className="tilteetloc">
         <h1 className="title">Cozy loft on the Canal Saint-Martin</h1>
         <h4 className="location">Paris, Île-de-France</h4>
-      </>
+      </div>
     )
   }
 }
