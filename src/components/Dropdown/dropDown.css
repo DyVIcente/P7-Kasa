@@ -1,23 +1,21 @@
 
   .btn-menu {
-    margin-bottom: 100px;
+    margin-bottom: 20px;
     margin-left: 20px;
     margin-right: 20px;
     width: 335px;
+    
   }
   
   .menu {
     
-    position: absolute;
     list-style-type: none;
     margin: 5px 0;
     padding: 0;
- 
+    margin-top: -2px;
   }
   
   .menu > li {
-    margin: 0;
-
     background-color: white;
   }
   
@@ -26,11 +24,11 @@
   }
   
   .menu > li > button {
-    width: 335px;
+    max-width: 335px;
     height: 100%;
-    border-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
     background: #F6F6F6;
-    border-radius: 10px;
     border: none;
     padding: 5px;
   }
@@ -38,9 +36,12 @@
   .btn {
     background-color: #FF6060;
     width: 335px;
-    height: 52px;
+    height: 30px;
     border-radius: 10px;
     border: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
   }
 
   .btn-txt {
@@ -49,6 +50,7 @@
     line-height: 18.54px;
     color: white;
     position: relative;
+    right:120px;
     
    
   }
@@ -58,4 +60,17 @@
     font-size: 18px;
     font-weight: 400;
     line-height: 25.67px;
+    
   }
+
+.vectorDown{
+  position: relative;
+  padding-right: 10px;
+  transform: rotate(0deg);
+  transition: transform 1s linear;
+}
+
+.btn:active > .vectorDown {
+  transform: rotateX(180deg);
+  transition: transform 0.6s linear;
+}

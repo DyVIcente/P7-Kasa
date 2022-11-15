@@ -1,7 +1,8 @@
 import * as React from 'react'
 import './dropDown.css'
+import Vector from '../../assets/VectorDown.png'
 
-const Dropdown = () => {
+const Dropdown = ({ title, description }) => {
   const [open, setOpen] = React.useState(false)
 
   const handleOpen = () => {
@@ -11,20 +12,14 @@ const Dropdown = () => {
   return (
     <div className="btn-menu">
       <button className="btn" onClick={handleOpen}>
-        <p className="btn-txt">Description</p>
+        <p className="btn-txt">{title}</p>
+        <img className="vectorDown" src={Vector} alt=""></img>
       </button>
       {open ? (
         <ul className="menu">
           <li className="menu-item">
-            <button>
-              <p className="menu-item-txt">
-                Vous serez à 50m du canal Saint-martin où vous pourrez
-                pique-niquer l'été et à côté de nombreux bars et restaurants. Au
-                cœur de Paris avec 5 lignes de métro et de nombreux bus.
-                Logement parfait pour les voyageurs en solo et les voyageurs
-                d'affaires. Vous êtes à1 station de la gare de l'est (7 minutes
-                à pied).{' '}
-              </p>
+            <button className="btn-over">
+              <p className="menu-item-txt">{description}</p>
             </button>
           </li>
         </ul>

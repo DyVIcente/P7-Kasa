@@ -2,10 +2,8 @@
 .Banner {
     background-position: center;
 	background-size: cover;
-	border-collapse: separate;
 	border-radius: 10px;
-	display: flex;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../assets/banniere.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../../assets/banniere.png");
     margin: 22px;
 }
 

@@ -1,5 +1,5 @@
 import './card.css'
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 import Data from '../../data/data.json'
 
 function Card() {
@@ -8,10 +8,10 @@ function Card() {
       {Data &&
         Data.map((data) => {
           return (
-            <Link className="cards" to={'logement/' + data.id} key={data.id}>
+            <NavLink className="cards" to={`logement/${data.id}`} key={data.id}>
               <img className="imgCards" src={data.cover} alt=""></img>
               <p className="titleCards">{data.title}</p>
-            </Link>
+            </NavLink>
           )
         })}
     </div>
