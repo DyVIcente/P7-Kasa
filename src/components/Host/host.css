@@ -1,0 +1,18 @@
+.hostBlock{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.hostName {
+    font-size: 12px;
+    font-weight: 500;
+    color: #FF6060;
+    width: min-content;
+}
+
+.hostPicture{
+    border-radius: 50%;
+    height: 32px;
+}

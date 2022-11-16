@@ -1,17 +1,11 @@
 import './tags.css'
-import Data from '../../data/data.json'
 
-function Tags() {
+function Tags({ tags }) {
   return (
     <div>
-      {Data &&
-        Data.map((data) => {
-          return (
-            <ul className="listTag" key={data.id}>
-              <li className="textTag">{data.tags}</li>
-            </ul>
-          )
-        })}
+      <ul className="listTag">
+        <li className="textTag">{tags}</li>
+      </ul>
     </div>
   )
 }

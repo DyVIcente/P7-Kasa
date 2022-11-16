@@ -1,28 +1,10 @@
 import './host.css'
-//import { Component } from 'react'
-import Data from '../../data/data.json'
 
-function Host() {
+function Host({ host }) {
   return (
-    <div className="app">
-      {Data &&
-        Data.map((record) => {
-          return (
-            <div className="box" key={record.id}>
-              {record.title}
-
-              {record.host &&
-                record.host.map((data) => {
-                  return (
-                    <div key={record.id}>
-                      <p> {data.name} </p>
-                      <img src={data.picture} alt="host"></img>
-                    </div>
-                  )
-                })}
-            </div>
-          )
-        })}
+    <div className="hostBlock">
+      <p className="hostName">{host.name}</p>
+      <img className="hostPicture" src={host.picture} alt=""></img>
     </div>
   )
 }
