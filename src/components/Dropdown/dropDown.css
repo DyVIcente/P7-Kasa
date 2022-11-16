@@ -72,5 +72,5 @@
 
 .btn:active > .vectorDown {
   transform: rotateX(180deg);
-  transition: transform 0.6s linear;
+  transition: transform 0.2s linear;
 }

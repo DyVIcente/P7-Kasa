@@ -6,8 +6,12 @@ function Header() {
   return (
     <nav className="navBar">
       <img className="logoNav" src={kasa} alt="logo kasa" />
-      <Link to="/">Accueil</Link>
-      <Link to="/about">A propos</Link>
+      <Link className="navTitle" to="/">
+        Accueil
+      </Link>
+      <Link className="navTitle" to="/about">
+        A propos
+      </Link>
     </nav>
   )
 }

@@ -24,3 +24,8 @@ a{
     height: 47px;
 }
 
+.navTitle {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 17.11px;
+}

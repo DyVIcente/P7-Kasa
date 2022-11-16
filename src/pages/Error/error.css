@@ -1,22 +1,30 @@
 .titleError {
+    margin-top: 120px;
     text-align: center;
     color: #FF6060;
-    font-size: 200px;
-    margin: 0;
+    font-size: 96px; 
+    font-weight: 700;
+    line-height: 136.9px;
 }
 
 .textError {
     text-align: center;
     color: #FF6060;
-    font-size: 35px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25.67px;
+    margin-left: 57px;
+    margin-right: 57px;
 }
 
 .linkBackAccueil{
     text-align: center;
     color: #FF6060;
-    font-size: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 19.96px;
     text-decoration: underline;
     margin-bottom: 50px;
-    margin-top: 50px;
+    margin-top: 133px;
 
 }
