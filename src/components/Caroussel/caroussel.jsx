@@ -20,7 +20,7 @@ function Caroussel({ pictures }) {
   }
 
   return (
-    <div className="cont">
+    <div>
       <div>
         <img className="vecR" src={VectorRight} alt="" onClick={goToNext} />
         <img className="vecL" src={VectorLeft} alt="" onClick={goToPrevious} />
