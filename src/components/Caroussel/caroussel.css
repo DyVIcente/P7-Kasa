@@ -1,0 +1,33 @@
+.cont {
+    position: relative;
+    height: 100%;
+    margin: 0;
+}
+
+.carou{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.carouImg {
+    width: 100%;
+    height: 100%;
+    border-radius: 10%;
+    object-fit: cover;
+   
+
+}
+
+.vecR {
+    left: 85%;
+    position: absolute;
+    background-color: blueviolet;
+    cursor: pointer;
+}
+
+.vecL {
+    position: absolute;
+    background-color: blueviolet;
+    cursor: pointer;
+}
