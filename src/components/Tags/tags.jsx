@@ -3,9 +3,14 @@ import './tags.css'
 function Tags({ tags }) {
   return (
     <div>
-      <ul className="listTag">
-        <li className="textTag">{tags}</li>
-      </ul>
+      {tags &&
+        tags.map((tag) => {
+          return (
+            <span className="textTag" key={tag}>
+              {tag}
+            </span>
+          )
+        })}
     </div>
   )
 }

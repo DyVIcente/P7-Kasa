@@ -9,8 +9,8 @@ align-items: center;
 }
 
 .carouImg {
-width: 100px;
-height: 60px;
+width: 200px;
+height: 120px;
 border-radius: 10px;
 object-fit: cover;
 }
@@ -30,7 +30,6 @@ transform: scale(1.08);
 
 .vecR {
     position: absolute;
-    
     right: 32px; 
      background-color: blueviolet;
      z-index: 10;
@@ -40,9 +39,7 @@ transform: scale(1.08);
 
 .vecL {
     position: absolute;
-   
     left: 32px;
-    
     background-color: blueviolet;
     z-index: 10;
     cursor: pointer;

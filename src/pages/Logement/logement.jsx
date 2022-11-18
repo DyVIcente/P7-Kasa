@@ -31,7 +31,7 @@ function Logement() {
       <Logementtitle title={title} location={location} />
       <Tags tags={tags} />
       <div className="starHost">
-        <Stars stars={rating} />
+        <Stars rating={rating} />
         <Host host={host} />
       </div>
       <div className="dropStyle">

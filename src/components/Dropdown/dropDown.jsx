@@ -2,7 +2,7 @@ import * as React from 'react'
 import './dropDown.css'
 import Vector from '../../assets/VectorDown.png'
 
-const Dropdown = ({ title, description }) => {
+function Dropdown({ title, description }) {
   const [open, setOpen] = React.useState(false)
 
   const handleOpen = () => {
