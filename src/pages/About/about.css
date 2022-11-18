@@ -5,10 +5,12 @@
     background-size: cover;
     background-position: center;
 	border-radius: 10px;
-	margin: 20px ;
 	height: 223px;
+    margin-bottom: 20px;
 }
 
 .aboutMain{
+    margin-left: 20px;
+    margin-right: 20px;
     margin-bottom: 170px;
 }

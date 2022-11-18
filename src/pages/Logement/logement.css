@@ -1,5 +1,16 @@
 .starHost {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
+   margin-bottom: 10px;
 }
 
+main{
+    margin-top: 50px;
+margin-left: 20px;
+margin-right: 20px;
+ }
+
+ .dropStyle {
+    margin-bottom: 50px;
+ }

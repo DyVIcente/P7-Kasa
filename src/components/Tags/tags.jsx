@@ -2,7 +2,7 @@ import './tags.css'
 
 function Tags({ tags }) {
   return (
-    <div>
+    <div className="tagblock">
       {tags &&
         tags.map((tag) => {
           return (

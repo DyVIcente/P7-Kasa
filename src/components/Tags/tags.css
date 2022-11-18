@@ -4,8 +4,20 @@
     border-radius: 5px;
     color: white;
     text-align: center;
-    margin: 5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding-left: 29px;
+    padding-right: 29px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 14.26px;
+    white-space: nowrap;
 }
 
-
+.tagblock {
+    display: flex;
+    flex-wrap: wrap;
+}
 

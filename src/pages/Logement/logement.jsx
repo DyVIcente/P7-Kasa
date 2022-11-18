@@ -26,7 +26,7 @@ function Logement() {
   } = logemenData
 
   return (
-    <div>
+    <main>
       <Caroussel pictures={pictures} />
       <Logementtitle title={title} location={location} />
       <Tags tags={tags} />
@@ -38,7 +38,7 @@ function Logement() {
         <Dropdown title="Description" description={description} />
         <Dropdown title="Équipements" description={equipments} />
       </div>
-    </div>
+    </main>
   )
 }
 
