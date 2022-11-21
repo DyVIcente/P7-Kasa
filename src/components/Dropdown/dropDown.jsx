@@ -1,9 +1,10 @@
 import * as React from 'react'
 import './dropDown.css'
 import Vector from '../../assets/VectorDown.png'
+import { useState } from 'react'
 
 function Dropdown({ title, description }) {
-  const [open, setOpen] = React.useState(false)
+  const [open, setOpen] = useState(false)
 
   const handleOpen = () => {
     setOpen(!open)
