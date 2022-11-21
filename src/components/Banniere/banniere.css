@@ -24,3 +24,15 @@
 }
 
 
+@media only screen and (min-width: 1024px) {
+
+	.Banner {
+		height: 223px;
+	}
+
+	.textBanner{
+		font-size: 48px;
+		line-height: 68.45px;
+	}
+
+}

@@ -38,3 +38,28 @@
         top: 180px;
         line-height: 25.67px;
     }
+
+
+    @media only screen and (min-width: 1024px) {
+
+        .losCardos{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 60px;
+            background-color: #F6F6F6;  
+            border-radius: 25px;
+            padding: 50px;
+            margin-top: 60px;
+            margin-bottom: 60px;
+           
+        }
+
+      .cards{
+	max-height: 340px;
+      }
+
+      .titleCards{
+        top: 260px;
+      }
+        
+    }
