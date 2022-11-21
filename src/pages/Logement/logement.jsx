@@ -7,12 +7,14 @@ import Logementtitle from '../../components/LogementTitle/logementtitle.jsx'
 import Tags from '../../components/Tags/tags'
 import Host from '../../components/Host/host.jsx'
 import Caroussel from '../../components/Caroussel/caroussel'
+import Error from '../Error/error'
 
 function Logement() {
   // Hook useParams pour recup l'id dans l'url
   const { id } = useParams()
   // On utilise find pour trouver le premier produit qui repond a la demande
   const logemenData = Data.find((product) => product.id === id)
+  if (!logemenData) return <Error />
 
   const {
     pictures,
