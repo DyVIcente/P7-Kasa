@@ -10,6 +10,3 @@ function LogementTitle({ title, location }) {
 }
 
 export default LogementTitle
-
-//<h1 className="title">{this.props.title}</h1>
-//<h4 className="location">{this.props.location}</h4>

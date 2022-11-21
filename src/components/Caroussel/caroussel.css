@@ -1,27 +1,29 @@
 
 
 .carou{
-position: relative;
-height: 100px;
+height: 255px;
 display: flex;
 justify-content: center;
 align-items: center;
 }
 
 .carouImg {
-width: 200px;
-height: 120px;
+width: 310px;
+height: 255px;
 border-radius: 10px;
 object-fit: cover;
 }
 
 
 .picture {
+
+position: absolute;
 opacity: 0;
 transition-duration: 1s ease;
 }
 
 .picture.active {
+    position: absolute;
 opacity: 1;
 transition-duration: 1s;
 transform: scale(1.08);
@@ -29,19 +31,19 @@ transform: scale(1.08);
 
 
 .vecR {
-    position: absolute;
-    right: 32px; 
-     background-color: blueviolet;
-     z-index: 10;
+    position: relative;
+    left: 160px;
+    height: 19.8px;
+    width: 11.67px;
      cursor: pointer;
      user-select: none;
 }
 
 .vecL {
-    position: absolute;
-    left: 32px;
-    background-color: blueviolet;
-    z-index: 10;
+    position: relative;
+    right: 160px;
+   height: 19.8px;
+   width: 11.67px;
     cursor: pointer;
     user-select: none;
 }

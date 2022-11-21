@@ -2,13 +2,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-   margin-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 main{
     margin-top: 50px;
-margin-left: 20px;
-margin-right: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
  }
 
  .dropStyle {

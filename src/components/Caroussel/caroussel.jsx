@@ -4,6 +4,8 @@ import VectorLeft from '../../assets/Vectorleft.png'
 import VectorRight from '../../assets/Vectorright.png'
 
 function Caroussel({ pictures }) {
+  // utiliser useState crée un état et ca va sauvegarde la valeur qui correspond a l'état dans la premiere clé
+  //la second clé donne un callback qu'on pourra appler des qu'on veut modifier l'état
   const [current, setCurrent] = useState(0)
   const length = pictures.length
 
@@ -21,10 +23,6 @@ function Caroussel({ pictures }) {
 
   return (
     <div>
-      <div>
-        <img className="vecR" src={VectorRight} alt="" onClick={goToNext} />
-        <img className="vecL" src={VectorLeft} alt="" onClick={goToPrevious} />
-      </div>
       <div className="carou">
         {pictures.map((picture, index) => {
           return (
@@ -36,6 +34,15 @@ function Caroussel({ pictures }) {
             </div>
           )
         })}
+        <div>
+          <img className="vecR" src={VectorRight} alt="" onClick={goToNext} />
+          <img
+            className="vecL"
+            src={VectorLeft}
+            alt=""
+            onClick={goToPrevious}
+          />
+        </div>
       </div>
     </div>
   )
