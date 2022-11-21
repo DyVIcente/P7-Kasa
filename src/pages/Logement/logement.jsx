@@ -14,6 +14,7 @@ function Logement() {
   const { id } = useParams()
   // On utilise find pour trouver le premier produit qui repond a la demande
   const logemenData = Data.find((product) => product.id === id)
+  //return error si l'id ne corrrespond pas
   if (!logemenData) return <Error />
 
   const {

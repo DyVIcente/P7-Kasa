@@ -29,3 +29,34 @@ a{
     font-weight: 500;
     line-height: 17.11px;
 }
+
+.navMenu{
+    display: flex;
+    gap: 20px;
+    flex-wrap: nowrap;
+}
+
+
+@media only screen and (min-width: 1024px) {
+
+
+.navBar{
+    justify-content: space-between;
+    margin: 40px 100px 40px 100px;
+    text-transform: none;
+}
+
+
+.navTitle{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 34.22px;
+
+}
+
+.logoNav {
+    width: 190px;
+    height: 62.26px;
+}
+
+}
