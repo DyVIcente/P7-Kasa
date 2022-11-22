@@ -33,6 +33,10 @@
 	.textBanner{
 		font-size: 48px;
 		line-height: 68.45px;
+		text-align: center;
+		display: block;
+		position: relative;
+		top: 70px;
 	}
 
 }

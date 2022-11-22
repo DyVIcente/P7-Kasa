@@ -24,4 +24,16 @@ main{
         gap: 76px;
     }
 
+
+    .starHost{
+       flex-direction: column-reverse;
+       gap: 40px;
+    }
+
+    .TagStarHost{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 40px;
+        margin-top: -130px;
+    }
 }

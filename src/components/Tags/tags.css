@@ -26,8 +26,12 @@
     .textTag{
         font-size: 14px;
         padding: 3px 40px 3px 40px;
+        height: fit-content;
+        line-height: 19.96px;
     }
-
+.tagblock{
+    align-items: flex-end;
+}
 
 
 }

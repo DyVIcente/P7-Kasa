@@ -31,23 +31,20 @@ function Logement() {
   return (
     <main>
       <Caroussel pictures={pictures} />
+
       <Logementtitle title={title} location={location} />
-      <Tags tags={tags} />
-      <div className="starHost">
-        <Stars rating={rating} />
-        <Host host={host} />
+      <div className="TagStarHost">
+        <Tags tags={tags} />
+
+        <div className="starHost">
+          <Stars rating={rating} />
+          <Host host={host} />
+        </div>
       </div>
+
       <div className="dropStyle">
-        <Dropdown
-          className="dropA"
-          title="Description"
-          description={description}
-        />
-        <Dropdown
-          className="dropB"
-          title="Équipements"
-          description={equipments}
-        />
+        <Dropdown title="Description" description={description} />
+        <Dropdown title="Équipements" description={equipments} />
       </div>
     </main>
   )

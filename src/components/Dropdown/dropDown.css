@@ -43,6 +43,7 @@
   }
 
   .btn-txt {
+    font-family: Montserrat;
     font-size: 13px;
     font-weight: 500;
     line-height: 18.54px;
@@ -53,6 +54,7 @@
   }
 
   .menu-item-txt {
+    font-family: Montserrat;
     color: #FF6060;
     font-size: 18px;
     font-weight: 400;
@@ -72,4 +74,22 @@
 .btn:active > .vectorDown {
   transform: rotateX(180deg);
   transition: transform 0.2s linear;
+}
+
+
+@media only screen and (min-width: 1024px) {
+
+.btn-txt{
+  font-size: 24px;
+  line-height: 34.22px;
+}
+
+.btn {
+  height: 47px;
+}
+
+.menu-item-txt{
+  font-size: 24px;
+  line-height: 34.22px;
+}
 }
