@@ -79,6 +79,8 @@
 
 @media only screen and (min-width: 1024px) {
 
+
+
 .btn-txt{
   font-size: 24px;
   line-height: 34.22px;
@@ -86,10 +88,21 @@
 
 .btn {
   height: 47px;
+  border-radius: 10px;
 }
 
 .menu-item-txt{
   font-size: 24px;
   line-height: 34.22px;
 }
+
+.vectorDown{
+  height: 14.06px;
+  width: 23.86px;
+}
+
+.btn-menu{
+  margin-bottom: 31px;
+}
+
 }

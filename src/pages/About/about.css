@@ -17,5 +17,19 @@
 
 @media only screen and (min-width: 1024px) {
     
+    .dropDiv{
+        margin-left: 209px;
+        margin-right: 209px;
+    }
+
+    .aboutMain{
+        margin: 61px 100px 201px 100px;
+    }
+
+    .bannerAbout{
+        margin-bottom: 31px;
+        border-radius: 25px;
+    }
+    
 
 }

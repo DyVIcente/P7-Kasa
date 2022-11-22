@@ -16,12 +16,16 @@ main{
  }
 
  @media only screen and (min-width: 1024px) {
+    main{
+        margin: 37px 100px 200px 100px;
+    }
     
     .dropStyle{
         display: grid;
         grid-template-columns: repeat(2, 582px);
+        justify-content:space-between;
         justify-self: center;
-        gap: 76px;
+        
     }
 
 

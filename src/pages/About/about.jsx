@@ -9,11 +9,13 @@ function About() {
       {DataAbout &&
         DataAbout.map((data) => {
           return (
-            <Dropdown
-              key={data.id}
-              title={data.title}
-              description={data.description}
-            />
+            <div className="dropDiv">
+              <Dropdown
+                key={data.id}
+                title={data.title}
+                description={data.description}
+              />
+            </div>
           )
         })}
     </div>
