@@ -46,6 +46,10 @@ a{
     text-transform: none;
 }
 
+br{
+    display: none;
+    }
+
 
 .navTitle{
     font-size: 24px;

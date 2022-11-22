@@ -12,3 +12,19 @@
     font-size: 14px;
     line-height: 19.96px;   
 }
+
+
+@media only screen and (min-width: 1024px) {
+
+    .title{
+        font-size: 36px;
+        line-height: 51.34px;
+    }
+
+    .location{
+        font-size: 18px;
+        line-height: 25.67px;
+    }
+
+
+}

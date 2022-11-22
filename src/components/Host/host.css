@@ -16,3 +16,16 @@
     border-radius: 50%;
     height: 32px;
 }
+
+@media only screen and (min-width: 1024px) {
+
+    .hostName{
+        font-size: 18px;
+        line-height: 25.67px;
+    }
+
+    .hostPicture{
+        height: 64px;
+    }
+
+}

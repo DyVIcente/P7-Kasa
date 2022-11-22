@@ -10,7 +10,7 @@ function Stars({ rating }) {
       {starArray &&
         starArray.map((item) =>
           rating >= item ? (
-            <Star key={item}></Star>
+            <Star className="starss" key={item}></Star>
           ) : (
             <Star2 className="stars2" key={item}></Star2>
           )

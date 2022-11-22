@@ -28,3 +28,32 @@
     margin-top: 133px;
 
 }
+
+
+@media only screen and (min-width: 1024px) {
+
+
+    .titleError{
+        font-size: 288px;
+        line-height: 410.69px;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+
+    br{
+    display: none;
+    }
+
+    .textError{
+        font-size: 36px;
+        line-height: 51.34px;
+        margin-top: 0;
+    }
+
+    .linkBackAccueil{
+        font-size: 18px;
+        line-height: 25.67px;
+        margin-bottom: 159px;
+    }
+
+}

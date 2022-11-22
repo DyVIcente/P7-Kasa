@@ -38,8 +38,16 @@ function Logement() {
         <Host host={host} />
       </div>
       <div className="dropStyle">
-        <Dropdown title="Description" description={description} />
-        <Dropdown title="Équipements" description={equipments} />
+        <Dropdown
+          className="dropA"
+          title="Description"
+          description={description}
+        />
+        <Dropdown
+          className="dropB"
+          title="Équipements"
+          description={equipments}
+        />
       </div>
     </main>
   )

@@ -14,3 +14,14 @@ main{
  .dropStyle {
     margin-bottom: 50px;
  }
+
+ @media only screen and (min-width: 1024px) {
+    
+    .dropStyle{
+        display: grid;
+        grid-template-columns: repeat(2, 582px);
+        justify-self: center;
+        gap: 76px;
+    }
+
+}
