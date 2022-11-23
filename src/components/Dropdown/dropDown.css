@@ -62,14 +62,15 @@
 
 .vectorDown{
   position: relative;
-  transform: rotate(0deg);
-  transition: transform 1s linear;
 }
 
-.btn:active > .vectorDown {
-  transform: rotateX(180deg);
-  transition: transform 0.2s linear;
+.vectorUp{
+  height: 10px;
+  width: 16px;
 }
+
+
+
 
 
 @media only screen and (min-width: 1440px) {
@@ -92,6 +93,11 @@
 }
 
 .vectorDown{
+  height: 14.06px;
+  width: 23.86px;
+}
+
+.vectorUp{
   height: 14.06px;
   width: 23.86px;
 }

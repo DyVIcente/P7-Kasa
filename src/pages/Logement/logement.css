@@ -22,14 +22,15 @@ main{
 
  @media only screen and (min-width:1440px) {
     main{
-        margin: 37px 100px 200px 100px;
+        margin: 37px 100px 300px 100px;
     }
     
     .dropStyle{
         display: grid;
         grid-template-columns: repeat(2, 582px);
-        gap: 60px;
+        gap: 76px;
         justify-content:space-between;
+        position: absolute;
         
         
     }
