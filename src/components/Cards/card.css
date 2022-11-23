@@ -44,7 +44,8 @@
 
         .losCardos{
             display: grid;
-            grid-template-columns: repeat(3, 1fr);
+            grid-template-columns: repeat(3, 340px);
+            justify-content: center;
             gap: 60px;
             background-color: #F6F6F6;  
             border-radius: 25px;

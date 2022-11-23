@@ -4,11 +4,13 @@ import Vector from '../../assets/VectorDown.png'
 import { useState } from 'react'
 
 function Dropdown({ title, description }) {
+  // destructuration, on recupere la valeur d'open et celle qui permet de la changer setOpen ici
+  // on démare avec la valeur false ( 0 souvent avec un tableau double valeur)
   const [open, setOpen] = useState(false)
 
   const handleOpen = () => {
-    setOpen(!open)
-  }
+    setOpen(!open) // on lui passe la nouvelle valeur de l'état
+  } // du coup on passe handleOpen dans onClick
 
   return (
     <div className="btn-menu">
@@ -19,9 +21,7 @@ function Dropdown({ title, description }) {
       {open ? (
         <ul className="menu">
           <li className="menu-item">
-            <button className="btn-over">
-              <p className="menu-item-txt">{description}</p>
-            </button>
+            <span className="menu-item-txt">{description}</span>
           </li>
         </ul>
       ) : null}

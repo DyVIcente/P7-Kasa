@@ -44,7 +44,19 @@ function Logement() {
 
       <div className="dropStyle">
         <Dropdown title="Description" description={description} />
-        <Dropdown title="Équipements" description={equipments} />
+        <Dropdown
+          title="Équipements"
+          description={
+            equipments &&
+            equipments.map((equipement) => {
+              return (
+                <ul key={`${equipement}`}>
+                  <li>{equipement}</li>
+                </ul>
+              )
+            })
+          }
+        />
       </div>
     </main>
   )

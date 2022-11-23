@@ -4,12 +4,12 @@ import DataAbout from '../../data/dataAbout.json'
 
 function About() {
   return (
-    <div className="aboutMain">
+    <main className="aboutMain">
       <div className="bannerAbout"></div>
       {DataAbout &&
         DataAbout.map((data) => {
           return (
-            <div className="dropDiv">
+            <div key={data.id} className="dropDiv">
               <Dropdown
                 key={data.id}
                 title={data.title}
@@ -18,7 +18,7 @@ function About() {
             </div>
           )
         })}
-    </div>
+    </main>
   )
 }
 
