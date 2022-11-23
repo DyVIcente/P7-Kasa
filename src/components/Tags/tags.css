@@ -21,7 +21,7 @@
     flex-wrap: wrap;
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1440px) {
 
     .textTag{
         font-size: 14px;
@@ -29,9 +29,11 @@
         height: fit-content;
         line-height: 19.96px;
     }
-.tagblock{
+
+    .tagblock{
     align-items: flex-end;
-}
+    
+    }
 
 
 }

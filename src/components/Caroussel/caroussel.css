@@ -47,3 +47,31 @@ transform: scale(1.08);
     cursor: pointer;
     user-select: none;
 }
+
+
+
+@media only screen and (min-width: 1440px) {
+
+.carouImg {
+    min-width: 1150px;
+    height: 415px;
+    border-radius: 25px;
+}
+
+.carou{
+    height: 415px;
+}
+
+.vecR {
+    left: 580px;
+    height: 79.2px;
+    width: 46.68px;
+}
+
+.vecL {
+    right: 580px;
+    height: 79.2px;
+    width: 46.68px;
+
+}
+}

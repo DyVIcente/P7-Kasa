@@ -20,7 +20,7 @@ main{
     list-style: none;
   }
 
- @media only screen and (min-width: 1024px) {
+ @media only screen and (min-width:1440px) {
     main{
         margin: 37px 100px 200px 100px;
     }
@@ -28,8 +28,9 @@ main{
     .dropStyle{
         display: grid;
         grid-template-columns: repeat(2, 582px);
+        gap: 60px;
         justify-content:space-between;
-        justify-self: center;
+        
         
     }
 
