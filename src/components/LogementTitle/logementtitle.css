@@ -3,6 +3,8 @@
     font-weight: 500;
     font-size: 18px;
     line-height: 25.67px;
+    margin-top: 20px;
+    margin-bottom: 0;
 }
 
 .location {
@@ -10,6 +12,8 @@
     font-weight: 500;
     font-size: 14px;
     line-height: 19.96px;   
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 
