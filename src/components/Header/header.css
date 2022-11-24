@@ -28,6 +28,20 @@ a{
     font-size: 12px;
     font-weight: 500;
     line-height: 17.11px;
+    text-decoration: none;
+    position: relative;
+}
+
+.navTitle:hover:after{
+    position: absolute;
+    content: '';
+    height: 1px;
+    bottom: -1px;
+    margin: 0 auto;
+	left: 0;
+    right: 0;
+	width: 100%;
+	background: #FF6060;
 }
 
 .navMenu{
@@ -35,6 +49,7 @@ a{
     gap: 20px;
     flex-wrap: nowrap;
 }
+
 
 
 @media only screen and (min-width: 1440px) {
