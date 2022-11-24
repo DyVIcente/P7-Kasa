@@ -29,12 +29,8 @@ main{
         display: grid;
         grid-template-columns: repeat(2, 582px);
         gap: 76px;
-        justify-content:space-between;
-        
-        
-        
+        justify-content:space-between; 
     }
-
 
     .starHost{
        flex-direction: column-reverse;
@@ -44,7 +40,7 @@ main{
     .TagStarHost{
         display: flex;
         justify-content: space-between;
-        margin-bottom: 40px;
-        margin-top: -130px;
+        margin-bottom: 20px;
+        margin-top: -110px;
     }
 }

@@ -1,22 +1,16 @@
 
   .btn-menu {
-    margin-bottom: 20px;
-    
+    margin-bottom: 20px; 
   }
   
   .menu {
-    
     list-style-type: none;
     margin: 5px 0;
     padding: 0;
     margin-top: -2px;
   }
   
-
-  
-  
   .menu > li  {
-    
     max-width: 100%;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -44,9 +38,7 @@
     font-weight: 500;
     line-height: 18.54px;
     color: white;
-    padding-left: 10px;
-    
-   
+    padding-left: 10px; 
   }
 
   .menu-item-txt {
@@ -58,7 +50,6 @@
     padding-left: 10px;
     display: inline-block;
     text-align: start;
-    
   }
 
 .vectorDown{

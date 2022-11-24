@@ -1,32 +1,29 @@
-
-
 .carou{
-height: 255px;
-display: flex;
-justify-content: center;
-align-items: center;
+    height: 255px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .carouImg {
-width: 310px;
-height: 255px;
-border-radius: 10px;
-object-fit: cover;
+    width: 310px;
+    height: 255px;
+    border-radius: 10px;
+    object-fit: cover;
 }
 
 
 .picture {
-
-position: absolute;
-opacity: 0;
-transition-duration: 1s ease;
+    position: absolute;
+    opacity: 0;
+    transition-duration: 1s ease;
 }
 
 .picture.active {
     position: absolute;
-opacity: 1;
-transition-duration: 1s;
-transform: scale(1.08);
+    opacity: 1;
+    transition-duration: 1s;
+    transform: scale(1.08);
 }
 
 
@@ -35,15 +32,15 @@ transform: scale(1.08);
     left: 160px;
     height: 19.8px;
     width: 11.67px;
-     cursor: pointer;
-     user-select: none;
+    cursor: pointer;
+    user-select: none;
 }
 
 .vecL {
     position: relative;
     right: 160px;
-   height: 19.8px;
-   width: 11.67px;
+    height: 19.8px;
+    width: 11.67px;
     cursor: pointer;
     user-select: none;
 }
@@ -75,7 +72,6 @@ transform: scale(1.08);
     right: 580px;
     height: 79.2px;
     width: 46.68px;
-
 }
 
 .compteur{
