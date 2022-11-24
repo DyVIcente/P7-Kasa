@@ -31,7 +31,8 @@ function Caroussel({ pictures }) {
               key={index}
             >
               <img className="carouImg" key={index} src={picture} alt=""></img>
-              <div className={index === current && 'compteur'}>
+              {/* compteur et compteur2 car sinon erreur console false return pour un element non booleeen */}
+              <div className={index === current ? 'compteur' : 'compteur2'}>
                 {current + 1}/{pictures.length}
               </div>
             </div>

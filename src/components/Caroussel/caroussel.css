@@ -88,4 +88,15 @@ transform: scale(1.08);
     font-weight: 500;
     line-height: 25.67px;
 }
+
+.compteur2{
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 90%;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25.67px;
+}
 }
