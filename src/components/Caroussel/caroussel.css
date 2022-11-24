@@ -48,6 +48,9 @@ transform: scale(1.08);
     user-select: none;
 }
 
+.compteur{
+    display: none;
+}
 
 
 @media only screen and (min-width: 1440px) {
@@ -73,5 +76,16 @@ transform: scale(1.08);
     height: 79.2px;
     width: 46.68px;
 
+}
+
+.compteur{
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 90%;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25.67px;
 }
 }
