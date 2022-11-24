@@ -31,12 +31,9 @@ function Caroussel({ pictures }) {
               key={index}
             >
               <img className="carouImg" key={index} src={picture} alt=""></img>
-
-              {index === current && (
-                <div className="compteur">
-                  {current + 1}/{pictures.length}
-                </div>
-              )}
+              <div className={index === current && 'compteur'}>
+                {current + 1}/{pictures.length}
+              </div>
             </div>
           )
         })}
