@@ -143,3 +143,24 @@
         width: 40px;
     }
 }
+
+
+@media only screen and (max-width: 320px) {
+    .carou{
+        height: 230px;
+    }
+    
+    .carouImg {
+        width: 265px;
+        height: 230px;
+    }
+
+    .vecR {
+        left: 140px;
+    }
+    
+    .vecL {
+        right: 140px;
+    }
+
+}

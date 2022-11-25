@@ -86,10 +86,11 @@ br{
 @media (min-width:1024px) and (max-width:1439px) {
 
     .navBar{
+        justify-content: space-between;
         font-size: 24px;
         font-weight: 500;
         line-height: 34.22px;
-        margin: 30px;
+        margin: 40px 100px 40px 100px;
     }
     .navTitle{
         font-size: 18px;
