@@ -72,3 +72,31 @@ br{
 }
 
 }
+
+
+@media only screen and (max-width: 320px) {
+    .navMenu{
+        gap: 5px;
+    }
+    .navTitle{
+        font-size: 10px;
+    }
+}
+
+@media (min-width:1024px) and (max-width:1439px) {
+
+    .navBar{
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 34.22px;
+        margin: 30px;
+    }
+    .navTitle{
+        font-size: 18px;
+    }
+
+    .navMenu{
+        gap: 50px;
+        text-transform: none;
+    }
+}

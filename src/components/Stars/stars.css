@@ -14,7 +14,7 @@
     justify-content: flex-end;
 }
 
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 1024px) {
 
     .starss{
         width: 30px ;

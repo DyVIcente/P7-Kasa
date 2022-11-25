@@ -58,3 +58,18 @@
     }
         
 }
+
+@media (min-width:1024px) and (max-width:1439px) {
+
+    .losCardos{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 340px);
+        justify-content: center;
+        gap: 60px;
+        background-color: #F6F6F6;  
+        border-radius: 25px;
+        padding: 50px;
+        margin-top: 60px;
+        margin-bottom: 60px;  
+    }
+}

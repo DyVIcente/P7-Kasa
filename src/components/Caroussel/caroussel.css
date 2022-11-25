@@ -96,3 +96,50 @@
     line-height: 25.67px;
 }
 }
+
+
+@media (min-width:1024px) and (max-width:1439px) {
+    .carouImg {
+        min-width: 900px;
+        height: 380px;
+        border-radius: 25px;
+    }
+    
+    .carou{
+        height: 380px;
+    }
+
+    .compteur{
+        display: block;
+        position: absolute;
+        left: 50%;
+        top: 90%;
+        color: white;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 25.67px;
+    }
+    
+    .compteur2{
+        display: block;
+        position: absolute;
+        left: 50%;
+        top: 90%;
+        color: white;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 25.67px;
+    }
+
+    .vecR {
+        left: 480px;
+        height: 70px;
+        width: 40px;
+    }
+    
+    .vecL {
+        right: 480px;
+        height: 70px;
+        width: 40px;
+    }
+}
