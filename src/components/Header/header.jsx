@@ -7,10 +7,17 @@ function Header() {
     <nav className="navBar">
       <img className="logoNav" src={kasa} alt="logo kasa" />
       <nav className="navMenu">
-        <NavLink className="navTitle" to="/">
+        <NavLink
+          className={(Navlink) => (Navlink.isActive ? 'active' : null)}
+          to="/"
+        >
           Accueil
         </NavLink>
-        <NavLink className="navTitle" to="/about">
+        {/* NavLink prend la place d'activeClassName */}
+        <NavLink
+          className={(Navlink) => (Navlink.isActive ? 'active' : null)}
+          to="/about"
+        >
           A propos
         </NavLink>
       </nav>
