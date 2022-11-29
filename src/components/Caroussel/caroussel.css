@@ -199,13 +199,13 @@
     }
 
     .vecR {
-        left: 480px;
+        left: 350px;
         height: 70px;
         width: 40px;
     }
     
     .vecL {
-        right: 480px;
+        right: 350px;
         height: 70px;
         width: 40px;
     }
