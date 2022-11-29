@@ -20,6 +20,7 @@ main{
     list-style: none;
   }
 
+
  @media only screen and (min-width:1440px) {
     main{
         margin: 37px 100px 200px 100px;
@@ -29,7 +30,10 @@ main{
         display: grid;
         grid-template-columns: repeat(2, 582px);
         gap: 76px;
-        justify-content:space-between; 
+        justify-content:space-between;
+        max-width: 1242px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .starHost{
@@ -42,6 +46,9 @@ main{
         justify-content: space-between;
         margin-bottom: 20px;
         margin-top: -110px;
+        max-width: 1242px;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
@@ -55,3 +62,4 @@ main{
 
 
 }
+

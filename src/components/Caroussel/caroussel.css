@@ -200,13 +200,9 @@
 
     .vecR {
         left: 350px;
-        height: 70px;
-        width: 40px;
     }
     
     .vecL {
         right: 350px;
-        height: 70px;
-        width: 40px;
     }
 }

@@ -6,14 +6,26 @@
     background-position: center;
 	border-radius: 10px;
 	height: 223px;
-    margin-bottom: 20px;
+    margin-bottom: 19px;
 }
 
 .aboutMain{
     margin-left: 20px;
     margin-right: 20px;
-    margin-bottom: 170px;
+    margin-bottom: 168px;
 }
+
+main{
+    margin-top: 17px !important;
+}
+
+.btn{
+    border-radius: 5px !important; 
+}
+
+.menu > li  {
+    padding: 22.08px 6.91px 52.58px 11.51px !important;
+  }
 
 @media only screen and (min-width: 768px) {
     
@@ -30,4 +42,10 @@
         margin-bottom: 31px;
         border-radius: 25px;
     }
+}
+
+@media only screen and (min-width: 1024px){
+    .menu > li  {
+        padding: 35px 27px 19px 18px !important;
+      }
 }
