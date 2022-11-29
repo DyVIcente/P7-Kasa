@@ -20,12 +20,6 @@ a:visited {
     height: 47px;
 }
 
-.navTitle {
-    font-size: 12px;
-    font-weight: 500;
-    line-height: 17.11px;
-    
-}
 
 nav > a {
     text-decoration: none;
@@ -35,6 +29,10 @@ nav > a {
     display: flex;
     gap: 10px;
     white-space: nowrap; 
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 17.11px;
+     
 }
 
 .active {
@@ -61,12 +59,6 @@ br{
     }
 
 
-.navTitle{
-    font-size: 24px;
-    font-weight: 500;
-    line-height: 34.22px;
-}
-
 .logoNav {
     width: 190px;
     height: 62.26px;
@@ -74,6 +66,9 @@ br{
 
 .navMenu{
     gap: 57px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 34.22px;
 }
 
 }
@@ -94,11 +89,9 @@ br{
         line-height: 34.22px;
         margin: 40px 100px 40px 100px;
     }
-    .navTitle{
-        font-size: 18px;
-    }
 
     .navMenu{
+        font-size: 18px;
         gap: 50px;
         text-transform: none;
     }
