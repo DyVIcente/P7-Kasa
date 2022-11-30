@@ -19,6 +19,8 @@
 .imgCards{
     filter: brightness(50%);
     height: 255px;
+    width: 335px;
+    object-fit: cover;
 }
 
 .imgCards:hover{
@@ -61,6 +63,7 @@
     }
     .imgCards{
         height: 340px;
+        width: 340px;
     }
 
     .cards{
@@ -90,6 +93,7 @@
 
     .imgCards{
         height: 340px;
+        width: 355px;
     }
 }
 
