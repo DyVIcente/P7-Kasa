@@ -6,6 +6,10 @@
     margin-top: 15px;
     margin-bottom: 0;
 }
+.tilteetloc{
+    max-width: 335px;
+    margin: auto;
+}
 
 .location {
     color: #FF6060;
@@ -16,6 +20,12 @@
     margin-bottom: 10px;
 }
 
+@media (min-width:768px) and (max-width:1023px) {
+    .tilteetloc{
+        max-width: 734.4px;
+        margin: auto;
+    }
+}
 
 @media only screen and (min-width: 1024px) {
 
@@ -32,6 +42,10 @@
         line-height: 25.67px;
     }
 
+    .tilteetloc{
+        max-width: 972px;
+        margin: auto;
+    }
 
 }
 
@@ -39,7 +53,7 @@
 
 
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1440px) {
     .tilteetloc{
         max-width: 1242px;
         margin: auto;

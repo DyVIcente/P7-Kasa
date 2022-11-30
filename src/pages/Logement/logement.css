@@ -6,8 +6,15 @@
 }
 
  .dropStyle {
+    margin: auto;
     margin-bottom: 50px;
+    max-width: 335px;
  }
+
+ .TagStarHost{
+    max-width: 335px;
+    margin: auto;
+}
 
  ul {
     padding-left: 5px;
@@ -25,6 +32,19 @@
 .dropStyle > .btn-menu > .menu > .menu-item {
     padding: 23.02px 6.91px 1.3px 11.51px ;
     min-height: 137.57px;
+    }
+
+    @media (min-width:768px) and (max-width:1023px) {
+
+        .TagStarHost{
+            max-width: 734.4px;
+            margin: auto;
+        }
+
+        .dropStyle{
+            max-width: 734.4px;
+            margin: auto;
+        }
     }
 
 
@@ -94,8 +114,14 @@
         display: grid;
         grid-template-columns: repeat(2, 460px);
         justify-content:space-between; 
+        max-width: 972px;
+        margin: auto;
     }
 
+     .TagStarHost{
+        max-width: 972px;
+        margin: auto;
+    }
 
 }
 
