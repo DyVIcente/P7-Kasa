@@ -3,8 +3,8 @@
     color: orange;
     text-align: right;
     align-content: center;
+    align-items: center;
     justify-content: space-between;
-    align-items: flex-end;
     margin: 20px;
     text-transform: uppercase;
 }

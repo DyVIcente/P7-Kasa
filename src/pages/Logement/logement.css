@@ -37,6 +37,13 @@
 
     .dropStyle > .btn-menu > .btn {
         border-radius: 10px;
+        height: 52px;
+        padding: 13px 20px;
+    }
+
+    .dropStyle > .btn-menu > .btn > .btn-txt {
+        size: 18px;
+        line-height: 25.67px;
     }
 
     .hostName {

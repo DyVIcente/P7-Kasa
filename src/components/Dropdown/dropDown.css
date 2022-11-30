@@ -28,7 +28,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 5px;
+    padding: 5px 12px;
   }
 
 
@@ -38,7 +38,6 @@
     font-weight: 500;
     line-height: 18.54px;
     color: white;
-    padding-left: 10px; 
   }
 
   .menu-item-txt {
@@ -69,8 +68,8 @@
 
 
 .btn-txt{
-  font-size: 24px;
-  line-height: 34.22px;
+  font-size: 18px;
+  line-height: 25.67px;
 }
 
 .btn {
