@@ -6,7 +6,7 @@
     text-align: center;
     margin-right: 10px;
     margin-bottom: 10px;
-    padding: 2px 29px 2px 29px;
+    padding: 2px 29px;
     font-size: 10px;
     font-weight: 500;
     line-height: 14.26px;
@@ -21,6 +21,7 @@
 @media only screen and (min-width: 1024px) {
 
     .textTag{
+        border-radius: 10px;
         font-size: 14px;
         padding: 3px 40px 3px 40px;
         height: fit-content;
