@@ -7,7 +7,7 @@
 
 .carouImg {
     width: 310px;
-    height: 236px;
+    height: 236.1px;
     border-radius: 10px;
     object-fit: cover;
 }
@@ -53,12 +53,13 @@
 @media only screen and (min-width: 1440px) {
 
 .carouImg {
-    min-width: 1150px;
-    height: 415px;
+    min-width: 1148.2px;
+    height: 384.3px;
     border-radius: 25px;
 }
 
 .carou{
+    margin-top: -45px;
     height: 415px;
 }
 
