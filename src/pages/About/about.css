@@ -10,34 +10,34 @@
 }
 
 .aboutMain{
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 168px;
+    margin: 20.71px 20px 168px 20px;
 }
 
-main{
-    margin-top: 17px;
-}
 
 .dropDiv > .btn-menu > .btn {
     border-radius: 5px;
 }
 
-.menu > li  {
+.dropDiv > .btn-menu > .menu > .menu-item  {
     padding: 22.08px 6.91px 0 11.51px;
   }
-  .menu-item-txt{
+
+.dropDiv >  .btn-menu > .menu > .menu-item > .menu-item-txt{
     min-height:121.57px ;
+    
   }
+
 @media only screen and (min-width: 768px) {
     
     .dropDiv{
         margin-left: 109px;
         margin-right: 109px;
+        max-width: 1023px;
+        margin: auto;
     }
 
     .aboutMain{
-        margin: 61px 100px 201px 100px;
+        margin: 49.37px 100px 201px 100px;
     }
 
     .bannerAbout{
@@ -47,7 +47,7 @@ main{
 }
 
 @media only screen and (min-width: 1024px){
-    .menu > li  {
+    .dropDiv > .btn-menu > .menu > .menu-item  {
         padding: 35px 27px 19px 18px ;
       }
 }

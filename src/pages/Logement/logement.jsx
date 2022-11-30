@@ -29,7 +29,7 @@ function Logement() {
   } = logemenData
 
   return (
-    <main>
+    <main className="logeMain">
       <Caroussel pictures={pictures} />
 
       <Logementtitle title={title} location={location} />

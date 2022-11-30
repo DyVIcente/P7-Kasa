@@ -5,12 +5,6 @@
     margin-bottom: 10px;
 }
 
-main{
-    margin-top: 50px;
-    margin-left: 20px;
-    margin-right: 20px;
- }
-
  .dropStyle {
     margin-bottom: 50px;
  }
@@ -22,28 +16,43 @@ main{
 
   .dropStyle > .btn-menu > .btn {
     border-radius: 5px;
-
 }
 
+.logeMain{
+    margin: 35.71px 20px 64.5px 20px;
+}
 
-  @media (min-width:1px) and (max-width:1023px){
-  .navBar {
-    margin: 20px 20px 31px 20px !important;
-  }
-  }
+.dropStyle > .btn-menu > .menu > .menu-item {
+    padding: 23.02px 6.91px 1.3px 11.51px ;
+    min-height: 137.57px;
+    }
+
 
   @media only screen and (min-width:1024px) {
 
-    .menu > li {
-    padding: 40px 45px 45px 45px !important;
+   .dropStyle > .btn-menu > .menu > .menu-item {
+    padding: 40px 12px 1px 20px ;
+    min-height: 239px;
+    }
+
+    .dropStyle > .btn-menu > .btn {
+        border-radius: 10px;
+    }
+
+    .hostName {
+        margin-top: 20px;
+    }
+
+    .hostPicture {
+        margin-top: 10px;
     }
 
   }
 
 
  @media only screen and (min-width:1440px) {
-    main{
-        margin: 37px 100px 200px 100px;
+    .logeMain{
+        margin: 0 100px 253px 100px;
     }
     
     .dropStyle{

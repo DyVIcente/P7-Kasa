@@ -1,12 +1,26 @@
-main { 
+
+.homeMain { 
+    margin-top: 19.97px;
     margin-left: 20px;
     margin-right: 20px;
 }
 
 @media (min-width:1024px) and (max-width:1439px) {
-    main {
+
+   .homeMain {
     margin-top: 50px;
     margin-left: 92px;
     margin-right: 92px;
     }
 }
+
+
+@media only screen and (min-width:1440px) {
+    .homeMain {
+        margin-top: 68.37px;
+        margin-left: 100px;
+        margin-right: 100px;
+        }
+}
+
+
