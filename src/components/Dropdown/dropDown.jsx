@@ -11,7 +11,7 @@ function Dropdown({ title, description }) {
 
   const handleOpen = () => {
     setOpen(!open) // on lui passe la nouvelle valeur de l'état
-  } // du coup on passe handleOpen dans onClick
+  } // du coup on passe handleOpen dans onClick, si false passe true et inverse
 
   return (
     <div className="btn-menu">

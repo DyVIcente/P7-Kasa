@@ -26,7 +26,8 @@ function Caroussel({ pictures }) {
       <div className="carou">
         {pictures.map((picture, index) => {
           return (
-            <div
+            <div // si l'index est current alors on mettra picture active sinon picture
+              //on change le css selon l'état
               className={index === current ? 'picture active' : 'picture'}
               key={index}
             >
