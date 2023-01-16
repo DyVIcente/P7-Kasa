@@ -1,12 +1,12 @@
 
 
-.foot {
+.footer-container {
     background-color: black;
     display: flex;
     flex-direction: column;
 }
 
-.logoFoot {
+.footer-img {
     height: 39.44px;
     width: 122px;
     filter:brightness(10);
@@ -17,7 +17,7 @@
     margin-bottom: 20px;
 }
 
-.textFoot {
+.footer-text {
     margin-bottom: 62px;
     margin-left: auto;
     margin-right: auto;
@@ -30,7 +30,7 @@
 
 @media only screen and (min-width: 1024px) {
 
-    .textFoot{
+    .footer-text{
         font-size: 24px;
         line-height: 34.22px;
     }

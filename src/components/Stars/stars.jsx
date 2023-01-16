@@ -6,13 +6,13 @@ function Stars({ rating }) {
   const starArray = [1, 2, 3, 4, 5]
 
   return (
-    <div className="stars">
+    <div className="stars-container">
       {starArray &&
         starArray.map((item) =>
           rating >= item ? (
-            <Star className="starss" key={item}></Star>
+            <Star className="stars-orange" key={item}></Star>
           ) : (
-            <Star2 className="stars2" key={item}></Star2>
+            <Star2 className="stars-grey" key={item}></Star2>
           )
         )}
     </div>

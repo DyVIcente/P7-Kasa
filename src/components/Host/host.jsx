@@ -2,9 +2,9 @@ import './host.css'
 
 function Host({ host }) {
   return (
-    <div className="hostBlock">
-      <p className="hostName">{host.name}</p>
-      <img className="hostPicture" src={host.picture} alt=""></img>
+    <div className="host-container">
+      <p className="host-text">{host.name}</p>
+      <img className="host-img" src={host.picture} alt=""></img>
     </div>
   )
 }

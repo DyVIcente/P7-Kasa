@@ -14,19 +14,21 @@ function Dropdown({ title, description }) {
   } // du coup on passe handleOpen dans onClick, si false passe true et inverse
 
   return (
-    <div className="btn-menu">
-      <button className="btn" onClick={handleOpen}>
-        <p className="btn-txt">{title}</p>
+    <div className="drop-container">
+      <button className="drop-btn" onClick={handleOpen}>
+        <p className="drop-btn_text">{title}</p>
         {open ? (
-          <img className="vectorUp" src={VectorUp} alt=""></img>
+          <img className="vectorUp" src={VectorUp} alt="" />
         ) : (
-          <img className="vectorDown" src={Vector} alt=""></img>
+          <img className="vectorDown" src={Vector} alt="" />
         )}
       </button>
       {open ? (
-        <ul className="menu">
+        <ul className="drop-container_text">
           <li className="menu-item">
-            <span className="menu-item-txt">{description}</span>
+            <span className="drop-container_text-description">
+              {description}
+            </span>
           </li>
         </ul>
       ) : null}

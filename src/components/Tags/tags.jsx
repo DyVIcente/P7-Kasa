@@ -2,11 +2,11 @@ import './tags.css'
 
 function Tags({ tags }) {
   return (
-    <div className="tagblock">
+    <div className="tag-container">
       {tags &&
         tags.map((tag) => {
           return (
-            <span className="textTag" key={tag}>
+            <span className="tag-text" key={tag}>
               {tag}
             </span>
           )

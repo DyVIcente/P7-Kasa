@@ -1,30 +1,30 @@
-.hostBlock{
+.host-container{
     display: flex;
     align-items: center;
     justify-content: flex-end;
     gap: 10px;
 }
 
-.hostName {
+.host-text {
     font-size: 12px;
     font-weight: 500;
     color: #FF6060;
     width: min-content;
 }
 
-.hostPicture{
+.host-img{
     border-radius: 50%;
     height: 32px;
 }
 
 @media only screen and (min-width: 1024px) {
 
-    .hostName{
+    .host-text{
         font-size: 18px;
         line-height: 25.67px;
     }
 
-    .hostPicture{
+    .host-img{
         height: 64px;
     }
 

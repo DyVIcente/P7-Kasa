@@ -1,14 +1,14 @@
-.starss{
+.stars-orange{
     width: 15px;
     height: 15px;
 }
 
-.stars2 {
+.stars-grey {
     width: 15px;
     height: 15px;
 }
 
-.stars {
+.stars-container {
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -16,12 +16,12 @@
 
 @media only screen and (min-width: 1024px) {
 
-    .starss{
+    .stars-orange{
         width: 30px ;
         height: 30px ;
     }
 
-    .stars2{
+    .stars-grey{
         width: 30px;
         height: 30px;
     }

@@ -3,9 +3,9 @@ import kasa from '../../assets/kasalogo.png'
 
 function Footer() {
   return (
-    <footer className="foot">
-      <img className="logoFoot" src={kasa} alt="logo kasa" />
-      <p className="textFoot">© 2020 Kasa. All rights reserved</p>
+    <footer className="footer-container">
+      <img className="footer-img" src={kasa} alt="logo_kasa" />
+      <p className="footer-text">© 2020 Kasa. All rights reserved</p>
     </footer>
   )
 }

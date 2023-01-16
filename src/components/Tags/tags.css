@@ -1,4 +1,4 @@
-.textTag {
+.tag-text {
     background-color: #FF6060;
     list-style: none;
     border-radius: 5px;
@@ -13,14 +13,14 @@
     white-space: nowrap;
 }
 
-.tagblock {
+.tag-container {
     display: flex;
     flex-wrap: wrap;
 }
 
 @media only screen and (min-width: 1024px) {
 
-    .textTag{
+    .tag-text{
         border-radius: 10px;
         font-size: 14px;
         padding: 3px 40px 3px 40px;
@@ -28,7 +28,7 @@
         line-height: 19.96px;
     }
 
-    .tagblock{
+    .tag-container{
     align-items: flex-end;
     }
 

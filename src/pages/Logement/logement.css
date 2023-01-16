@@ -21,7 +21,7 @@
     list-style: none;
   }
 
-  .dropStyle > .btn-menu > .btn {
+  .dropStyle > .drop-container > .drop-btn {
     border-radius: 5px;
 }
 
@@ -29,7 +29,7 @@
     margin: 35.71px 20px 64.5px 20px;
 }
 
-.dropStyle > .btn-menu > .menu > .menu-item {
+.dropStyle > .drop-container > .drop-container_text > .menu-item {
     padding: 23.02px 6.91px 1.3px 11.51px ;
     min-height: 137.57px;
     }
@@ -50,18 +50,18 @@
 
   @media only screen and (min-width:1024px) {
 
-   .dropStyle > .btn-menu > .menu > .menu-item {
+   .dropStyle > .drop-container > .drop-container_text > .menu-item {
     padding: 40px 12px 1px 20px ;
     min-height: 239px;
     }
 
-    .dropStyle > .btn-menu > .btn {
+    .dropStyle > .drop-container > .drop-btn {
         border-radius: 10px;
         height: 52px;
         padding: 13px 20px;
     }
 
-    .dropStyle > .btn-menu > .btn > .btn-txt {
+    .dropStyle > .drop-container > .drop-btn > .drop-btn_text {
         size: 18px;
         line-height: 25.67px;
     }

@@ -1,11 +1,11 @@
-.carou{
+.carou-container{
     height: 255px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.carouImg {
+.carou-img{
     width: 310px;
     height: 236.1px;
     border-radius: 10px;
@@ -52,13 +52,13 @@
 
 @media only screen and (min-width: 1440px) {
 
-.carouImg {
+.carou-img {
     min-width: 1148.2px;
     height: 384.3px;
     border-radius: 25px;
 }
 
-.carou{
+.carou-container{
     margin-top: -45px;
     height: 415px;
 }
@@ -100,13 +100,13 @@
 
 
 @media (min-width:1024px) and (max-width:1439px) {
-    .carouImg {
+    .carou-img{
         min-width: 900px;
         height: 380px;
         border-radius: 25px;
     }
     
-    .carou{
+    .carou-container{
         height: 380px;
     }
 
@@ -147,11 +147,11 @@
 
 
 @media only screen and (max-width: 320px) {
-    .carou{
+    .carou-container{
         height: 230px;
     }
     
-    .carouImg {
+    .carou-img {
         width: 265px;
         height: 230px;
     }
@@ -167,13 +167,13 @@
 }
 
 @media (min-width:768px) and (max-width:1023px) {
-    .carouImg {
+    .carou-img {
         min-width: 680px;
         height: 340px;
         border-radius: 25px;
     }
     
-    .carou{
+    .carou-container{
         height: 340px;
     }
 

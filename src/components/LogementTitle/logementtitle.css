@@ -1,4 +1,4 @@
-.title {
+.logementTitle-text {
     color: #FF6060;
     font-weight: 500;
     font-size: 18px;
@@ -6,12 +6,12 @@
     margin-top: 15px;
     margin-bottom: 0;
 }
-.tilteetloc{
+.logementTitle-container{
     max-width: 335px;
     margin: auto;
 }
 
-.location {
+.logementTitle-location {
     color: #FF6060;
     font-weight: 500;
     font-size: 14px;
@@ -21,7 +21,7 @@
 }
 
 @media (min-width:768px) and (max-width:1023px) {
-    .tilteetloc{
+    .logementTitle-container{
         max-width: 734.4px;
         margin: auto;
     }
@@ -29,20 +29,20 @@
 
 @media only screen and (min-width: 1024px) {
 
-    .title{
+    .logementTitle-text{
         margin-bottom: 0;
         margin-top: 30px;
         font-size: 36px;
         line-height: 51.34px;
     }
 
-    .location{
+    .logementTitle-location{
         margin-top: 0;
         font-size: 18px;
         line-height: 25.67px;
     }
 
-    .tilteetloc{
+    .logementTitle-container{
         max-width: 972px;
         margin: auto;
     }
@@ -54,7 +54,7 @@
 
 
 @media only screen and (min-width: 1440px) {
-    .tilteetloc{
+    .logementTitle-container{
         max-width: 1242px;
         margin: auto;
     }

@@ -7,10 +7,13 @@ function About() {
     <main className="aboutMain">
       <div className="bannerAbout"></div>
       {DataAbout &&
-        DataAbout.map((data) => {
+        DataAbout.map((databout) => {
           return (
-            <div key={data.id} className="dropDiv">
-              <Dropdown title={data.title} description={data.description} />
+            <div key={databout.id} className="dropDiv">
+              <Dropdown
+                title={databout.title}
+                description={databout.description}
+              />
             </div>
           )
         })}

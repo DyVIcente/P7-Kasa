@@ -1,4 +1,4 @@
-.navBar {
+.navBar-container {
     display: flex;
     color: orange;
     text-align: right;
@@ -9,23 +9,14 @@
     text-transform: uppercase;
 }
 
-a:visited {
-    color: #FF6060;
-}
 
-
-
-.logoNav {
+.navBar-logo {
     width: 147px;
     height: 47px;
 }
 
 
-nav > a {
-    text-decoration: none;
-}
-
-.navMenu{
+.navBar-menu{
     display: flex;
     gap: 10px;
     white-space: nowrap; 
@@ -48,23 +39,20 @@ nav > a {
 @media only screen and (min-width: 1440px) {
 
 
-.navBar{
+.navBar-container{
     justify-content: space-between;
     margin: 40px 100px 68.37px 100px;
     text-transform: none;
 }
 
-br{
-    display: none;
-    }
 
 
-.logoNav {
+.navBar-logo {
     width: 190px;
     height: 62.26px;
 }
 
-.navMenu{
+.navBar-menu{
     gap: 57px;
     font-size: 24px;
     font-weight: 500;
@@ -75,14 +63,14 @@ br{
 
 
 @media only screen and (max-width: 320px) {
-    .navMenu{
+    .navBar-menu{
         gap: 5px;
     }
 }
 
 @media (min-width:768px) and (max-width:1439px) {
 
-    .navBar{
+    .navBar-container{
         justify-content: space-between;
         font-size: 24px;
         font-weight: 500;
@@ -90,7 +78,7 @@ br{
         margin: 40px 100px 40px 100px;
     }
 
-    .navMenu{
+    .navBar-menu{
         font-size: 18px;
         gap: 50px;
         text-transform: none;

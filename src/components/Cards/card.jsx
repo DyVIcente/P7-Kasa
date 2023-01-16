@@ -4,7 +4,7 @@ import CardDatas from '../../data/data.json'
 
 function Card() {
   return (
-    <div className="losCardos">
+    <div className="card-container">
       {CardDatas &&
         CardDatas.map((carddata) => {
           return (
@@ -13,8 +13,8 @@ function Card() {
               to={`logement/${carddata.id}`}
               key={carddata.id}
             >
-              <img className="imgCards" src={carddata.cover} alt=""></img>
-              <p className="titleCards">{carddata.title}</p>
+              <img className="card-cards_img" src={carddata.cover} alt=""></img>
+              <p className="card-cards_title">{carddata.title}</p>
             </NavLink>
           )
         })}

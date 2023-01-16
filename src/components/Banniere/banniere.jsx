@@ -2,8 +2,8 @@ import './banniere.css'
 
 function Banner() {
   return (
-    <div className="Banner">
-      <p className="textBanner">
+    <div className="banner-container">
+      <p className="banner-container_text">
         Chez vous,
         <br /> partout et ailleurs
       </p>

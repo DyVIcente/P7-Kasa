@@ -14,15 +14,15 @@
 }
 
 
-.dropDiv > .btn-menu > .btn {
+.dropDiv > .drop-container > .drop-btn {
     border-radius: 5px;
 }
 
-.dropDiv > .btn-menu > .menu > .menu-item  {
+.dropDiv > .drop-container > .drop-container_text > .menu-item  {
     padding: 22.08px 6.91px 0 11.51px;
   }
 
-.dropDiv >  .btn-menu > .menu > .menu-item > .menu-item-txt{
+.dropDiv >  .drop-container > .drop-container_text > .menu-item > .drop-container_text-description{
     min-height:121.57px ;
     
   }
@@ -47,16 +47,16 @@
 }
 
 @media only screen and (min-width: 1024px){
-    .dropDiv > .btn-menu > .menu > .menu-item  {
+    .dropDiv > .drop-container > .drop-container_text > .menu-item  {
         padding: 35px 27px 19px 18px ;
       }
 
-      .dropDiv > .btn-menu > .btn {
+      .dropDiv > .drop-container > .drop-btn {
         height: 47px;
        padding: 5.75px 18px 7.25px 18.08px;
       }
 
-      .dropDiv > .btn-menu > .btn > .btn-txt {
+      .dropDiv > .drop-container > .drop-btn > .drop-btn_text {
         font-size: 24px;
         line-height: 34.22px;
       }

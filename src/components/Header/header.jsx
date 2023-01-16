@@ -4,9 +4,9 @@ import './header.css'
 
 function Header() {
   return (
-    <nav className="navBar">
-      <img className="logoNav" src={kasa} alt="logo kasa" />
-      <nav className="navMenu">
+    <nav className="navBar-container">
+      <img className="navBar-logo" src={kasa} alt="logo_kasa" />
+      <nav className="navBar-menu">
         <NavLink
           className={(Navlink) => (Navlink.isActive ? 'active' : null)}
           to="/"

@@ -23,7 +23,7 @@ function Caroussel({ pictures }) {
 
   return (
     <div>
-      <div className="carou">
+      <div className="carou-container">
         {pictures.map((picture, index) => {
           return (
             <div // si l'index est current alors on mettra picture active sinon picture
@@ -31,7 +31,7 @@ function Caroussel({ pictures }) {
               className={index === current ? 'picture active' : 'picture'}
               key={index}
             >
-              <img className="carouImg" key={index} src={picture} alt=""></img>
+              <img className="carou-img" key={index} src={picture} alt=""></img>
               {/* compteur et compteur2 car sinon erreur console false return pour un element non booleeen */}
               <div className={index === current ? 'compteur' : 'compteur2'}>
                 {current + 1}/{pictures.length}
