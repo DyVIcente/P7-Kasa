@@ -10,11 +10,7 @@ function About() {
         DataAbout.map((data) => {
           return (
             <div key={data.id} className="dropDiv">
-              <Dropdown
-                key={data.id}
-                title={data.title}
-                description={data.description}
-              />
+              <Dropdown title={data.title} description={data.description} />
             </div>
           )
         })}

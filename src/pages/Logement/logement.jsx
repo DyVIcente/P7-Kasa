@@ -1,13 +1,15 @@
 import './logement.css'
-import Dropdown from '../../components/Dropdown/dropDown'
-import Stars from '../../components/Stars/stars'
 import Data from '../../data/data.json'
 import { useParams } from 'react-router-dom'
-import Logementtitle from '../../components/LogementTitle/logementtitle.jsx'
-import Tags from '../../components/Tags/tags'
-import Host from '../../components/Host/host.jsx'
-import Caroussel from '../../components/Caroussel/caroussel'
 import Error from '../Error/error'
+import {
+  Dropdown,
+  Stars,
+  LogementTitle,
+  Tags,
+  Host,
+  Caroussel,
+} from '../../components/index'
 
 function Logement() {
   // Hook useParams pour recup l'id dans l'url
@@ -32,7 +34,7 @@ function Logement() {
     <main className="logeMain">
       <Caroussel pictures={pictures} />
 
-      <Logementtitle title={title} location={location} />
+      <LogementTitle title={title} location={location} />
       <div className="TagStarHost">
         <Tags tags={tags} />
 
@@ -48,9 +50,9 @@ function Logement() {
           title="Équipements"
           description={
             equipments &&
-            equipments.map((equipement) => {
+            equipments.map((equipement, index) => {
               return (
-                <ul key={`${equipement}`}>
+                <ul key={equipement + index}>
                   <li>{equipement}</li>
                 </ul>
               )

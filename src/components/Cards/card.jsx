@@ -1,16 +1,20 @@
 import './card.css'
 import { NavLink } from 'react-router-dom'
-import Data from '../../data/data.json'
+import CardDatas from '../../data/data.json'
 
 function Card() {
   return (
     <div className="losCardos">
-      {Data &&
-        Data.map((data) => {
+      {CardDatas &&
+        CardDatas.map((carddata) => {
           return (
-            <NavLink className="cards" to={`logement/${data.id}`} key={data.id}>
-              <img className="imgCards" src={data.cover} alt=""></img>
-              <p className="titleCards">{data.title}</p>
+            <NavLink
+              className="cards"
+              to={`logement/${carddata.id}`}
+              key={carddata.id}
+            >
+              <img className="imgCards" src={carddata.cover} alt=""></img>
+              <p className="titleCards">{carddata.title}</p>
             </NavLink>
           )
         })}

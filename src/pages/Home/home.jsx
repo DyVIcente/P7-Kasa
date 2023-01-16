@@ -1,12 +1,11 @@
-import Banner from '../../components/Banniere/banniere'
-import Card from '../../components/Cards/card'
+import { Banniere, Cards } from '../../components/index'
 import './Home.css'
 
 function Home() {
   return (
     <main className="homeMain">
-      <Banner></Banner>
-      <Card></Card>
+      <Banniere />
+      <Cards />
     </main>
   )
 }

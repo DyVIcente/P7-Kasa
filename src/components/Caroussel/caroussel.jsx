@@ -17,7 +17,7 @@ function Caroussel({ pictures }) {
     setCurrent(current === length - 1 ? 0 : current + 1)
   }
 
-  if (!Array.isArray(pictures) || pictures.length <= 0) {
+  if (!Array.isArray(pictures) || length <= 0) {
     return null
   }
 
