@@ -3,7 +3,7 @@ import './Home.css'
 
 function Home() {
   return (
-    <main className="homeMain">
+    <main className="home-container">
       <Banniere />
       <Cards />
     </main>

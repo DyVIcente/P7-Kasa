@@ -4,7 +4,7 @@ import CardDatas from '../../data/data.json'
 
 function Card() {
   return (
-    <div className="card-container">
+    <section className="card-container">
       {CardDatas &&
         CardDatas.map((carddata) => {
           return (
@@ -18,7 +18,7 @@ function Card() {
             </NavLink>
           )
         })}
-    </div>
+    </section>
   )
 }
 

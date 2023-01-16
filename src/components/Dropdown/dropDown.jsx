@@ -25,7 +25,7 @@ function Dropdown({ title, description }) {
       </button>
       {open ? (
         <ul className="drop-container_text">
-          <li className="menu-item">
+          <li className="drop-container_text-list">
             <span className="drop-container_text-description">
               {description}
             </span>

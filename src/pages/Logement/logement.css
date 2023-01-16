@@ -1,47 +1,43 @@
-.starHost {
+.logement-container_stars_host {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 10px;
 }
 
- .dropStyle {
+.logement-container_dropDown {
     margin: auto;
     margin-bottom: 50px;
     max-width: 335px;
  }
 
- .TagStarHost{
+.logement-container_tags-container{
     max-width: 335px;
     margin: auto;
 }
 
- ul {
-    padding-left: 5px;
-    list-style: none;
-  }
 
-  .dropStyle > .drop-container > .drop-btn {
+.logement-container_dropDown > .drop-container > .drop-btn {
     border-radius: 5px;
 }
 
-.logeMain{
+.logement-container{
     margin: 35.71px 20px 64.5px 20px;
 }
 
-.dropStyle > .drop-container > .drop-container_text > .menu-item {
+.logement-container_dropDown > .drop-container > .drop-container_text > .drop-container_text-list {
     padding: 23.02px 6.91px 1.3px 11.51px ;
     min-height: 137.57px;
     }
 
     @media (min-width:768px) and (max-width:1023px) {
 
-        .TagStarHost{
+        .logement-container_tags-container{
             max-width: 734.4px;
             margin: auto;
         }
 
-        .dropStyle{
+        .logement-container_dropDown{
             max-width: 734.4px;
             margin: auto;
         }
@@ -50,27 +46,27 @@
 
   @media only screen and (min-width:1024px) {
 
-   .dropStyle > .drop-container > .drop-container_text > .menu-item {
+   .logement-container_dropDown > .drop-container > .drop-container_text > .drop-container_text-list {
     padding: 40px 12px 1px 20px ;
     min-height: 239px;
     }
 
-    .dropStyle > .drop-container > .drop-btn {
+    .logement-container_dropDown > .drop-container > .drop-btn {
         border-radius: 10px;
         height: 52px;
         padding: 13px 20px;
     }
 
-    .dropStyle > .drop-container > .drop-btn > .drop-btn_text {
+    .logement-container_dropDown > .drop-container > .drop-btn > .drop-btn_text {
         size: 18px;
         line-height: 25.67px;
     }
 
-    .hostName {
+    .host-text {
         margin-top: 20px;
     }
 
-    .hostPicture {
+    .host-img {
         margin-top: 10px;
     }
 
@@ -78,11 +74,11 @@
 
 
  @media only screen and (min-width:1440px) {
-    .logeMain{
+    .logement-container{
         margin: 0 100px 253px 100px;
     }
     
-    .dropStyle{
+    .logement-container_dropDown{
         display: grid;
         grid-template-columns: repeat(2, 582px);
         gap: 76px;
@@ -92,12 +88,12 @@
         margin-right: auto;
     }
 
-    .starHost{
+    .logement-container_stars_host{
        flex-direction: column-reverse;
        gap: 40px;
     }
 
-    .TagStarHost{
+    .logement-container_tags-container{
         display: flex;
         justify-content: space-between;
         margin-bottom: 20px;
@@ -110,7 +106,7 @@
 
 @media (min-width:1024px) and (max-width:1439px) {
 
-    .dropStyle{
+    .logement-container_dropDown{
         display: grid;
         grid-template-columns: repeat(2, 460px);
         justify-content:space-between; 
@@ -118,7 +114,7 @@
         margin: auto;
     }
 
-     .TagStarHost{
+     .logement-container_tags-container{
         max-width: 972px;
         margin: auto;
     }

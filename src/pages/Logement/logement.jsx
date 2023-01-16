@@ -31,20 +31,20 @@ function Logement() {
   } = logemenData
 
   return (
-    <main className="logeMain">
+    <main className="logement-container">
       <Caroussel pictures={pictures} />
 
       <LogementTitle title={title} location={location} />
-      <div className="TagStarHost">
+      <div className="logement-container_tags-container">
         <Tags tags={tags} />
 
-        <div className="starHost">
+        <div className="logement-container_stars_host">
           <Stars rating={rating} />
           <Host host={host} />
         </div>
       </div>
 
-      <div className="dropStyle">
+      <div className="logement-container_dropDown">
         <Dropdown title="Description" description={description} />
         <Dropdown
           title="Équipements"

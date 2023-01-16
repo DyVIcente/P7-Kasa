@@ -1,6 +1,8 @@
+.about-container{
+    margin: 20.71px 20px 168px 20px;
+}
 
-
-.bannerAbout {
+.about-container_banner {
     background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../../assets/aboutbanner2.jpg);
     background-size: cover;
     background-position: center;
@@ -9,54 +11,49 @@
     margin-bottom: 19px;
 }
 
-.aboutMain{
-    margin: 20.71px 20px 168px 20px;
-}
-
-
-.dropDiv > .drop-container > .drop-btn {
+.about-dropDown > .drop-container > .drop-btn {
     border-radius: 5px;
 }
 
-.dropDiv > .drop-container > .drop-container_text > .menu-item  {
+.about-dropDown > .drop-container > .drop-container_text > .drop-container_text-list  {
     padding: 22.08px 6.91px 0 11.51px;
   }
 
-.dropDiv >  .drop-container > .drop-container_text > .menu-item > .drop-container_text-description{
+.about-dropDown >  .drop-container > .drop-container_text > .drop-container_text-list > .drop-container_text-description{
     min-height:121.57px ;
     
   }
 
 @media only screen and (min-width: 768px) {
     
-    .dropDiv{
+    .about-dropDown{
         margin-left: 109px;
         margin-right: 109px;
         max-width: 1023px;
         margin: auto;
     }
 
-    .aboutMain{
+    .about-container{
         margin: 49.37px 100px 201px 100px;
     }
 
-    .bannerAbout{
+    .about-container_banner{
         margin-bottom: 31px;
         border-radius: 25px;
     }
 }
 
 @media only screen and (min-width: 1024px){
-    .dropDiv > .drop-container > .drop-container_text > .menu-item  {
+    .about-dropDown > .drop-container > .drop-container_text > .drop-container_text-list  {
         padding: 35px 27px 19px 18px ;
       }
 
-      .dropDiv > .drop-container > .drop-btn {
+      .about-dropDown > .drop-container > .drop-btn {
         height: 47px;
        padding: 5.75px 18px 7.25px 18.08px;
       }
 
-      .dropDiv > .drop-container > .drop-btn > .drop-btn_text {
+      .about-dropDown > .drop-container > .drop-btn > .drop-btn_text {
         font-size: 24px;
         line-height: 34.22px;
       }

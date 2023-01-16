@@ -2,12 +2,12 @@ import './banniere.css'
 
 function Banner() {
   return (
-    <div className="banner-container">
+    <section className="banner-container">
       <p className="banner-container_text">
         Chez vous,
         <br /> partout et ailleurs
       </p>
-    </div>
+    </section>
   )
 }
 

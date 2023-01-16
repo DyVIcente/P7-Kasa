@@ -1,4 +1,4 @@
-.titleError {
+.error-title {
     margin-top: 180.71px;
     margin-bottom: 0;
     text-align: center;
@@ -8,7 +8,7 @@
     line-height: 136.9px;
 }
 
-.textError {
+.error-text {
     text-align: center;
     color: #FF6060;
     font-size: 18px;
@@ -19,7 +19,7 @@
     margin-right: 57px;
 }
 
-.linkBackAccueil{
+.error-link{
     text-align: center;
     color: #FF6060;
     font-size: 14px;
@@ -32,26 +32,20 @@
 
 
 @media only screen and (min-width: 1024px) {
-
-
-    .titleError{
+    .error-title{
         font-size: 288px;
         line-height: 410.69px;
         margin-bottom: 0;
         margin-top: 54px;
     }
 
-    br{
-    display: none;
-    }
-
-    .textError{
+    .error-text{
         font-size: 36px;
         line-height: 51.34px;
         margin-top: 0;
     }
 
-    .linkBackAccueil{
+    .error-link{
         font-size: 18px;
         line-height: 25.67px;
         margin-bottom: 159px;

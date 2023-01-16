@@ -4,12 +4,12 @@ import DataAbout from '../../data/dataAbout.json'
 
 function About() {
   return (
-    <main className="aboutMain">
-      <div className="bannerAbout"></div>
+    <main className="about-container">
+      <div className="about-container_banner"></div>
       {DataAbout &&
         DataAbout.map((databout) => {
           return (
-            <div key={databout.id} className="dropDiv">
+            <div key={databout.id} className="about-dropDown">
               <Dropdown
                 title={databout.title}
                 description={databout.description}
