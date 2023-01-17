@@ -17,6 +17,7 @@ function Caroussel({ pictures }) {
     setCurrent(current === length - 1 ? 0 : current + 1)
   }
 
+  // verifie si pictures est un tableau, et si il y a des images à afficher
   if (!Array.isArray(pictures) || length <= 0) {
     return null
   }
@@ -24,27 +25,38 @@ function Caroussel({ pictures }) {
   return (
     <div>
       <div className="carou-container">
-        {pictures.map((picture, index) => {
-          return (
-            <div // si l'index est current alors on mettra picture active sinon picture
-              //on change le css selon l'état
-              className={index === current ? 'picture active' : 'picture'}
-              key={index}
-            >
-              <img className="carou-img" key={index} src={picture} alt=""></img>
-              {/* compteur et compteur2 car sinon erreur console false return pour un element non booleeen */}
-              <div className={index === current ? 'compteur' : 'compteur2'}>
-                {current + 1}/{pictures.length}
+        {pictures &&
+          pictures.map((picture, index) => {
+            return (
+              <div // si l'index est current alors on mettra picture active sinon picture
+                //on change le css selon l'état
+                className={index === current ? 'picture active' : 'picture'}
+                key={index}
+              >
+                <img
+                  className="carou-img"
+                  key={index}
+                  src={picture}
+                  alt="carou_image"
+                />
+                {/* compteur et compteur2 car sinon erreur console false return pour un element non booleeen */}
+                <div className={index === current ? 'compteur' : 'compteur2'}>
+                  {current + 1}/{pictures.length}
+                </div>
               </div>
-            </div>
-          )
-        })}
+            )
+          })}
         <div>
-          <img className="vecR" src={VectorRight} alt="" onClick={goToNext} />
+          <img
+            className="vecR"
+            src={VectorRight}
+            alt="vector_right"
+            onClick={goToNext}
+          />
           <img
             className="vecL"
             src={VectorLeft}
-            alt=""
+            alt="vector_left"
             onClick={goToPrevious}
           />
         </div>

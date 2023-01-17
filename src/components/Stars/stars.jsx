@@ -8,11 +8,11 @@ function Stars({ rating }) {
   return (
     <div className="stars-container">
       {starArray &&
-        starArray.map((item) =>
+        starArray.map((item, index) =>
           rating >= item ? (
-            <Star className="stars-orange" key={item}></Star>
+            <Star className="stars-orange" key={item + index}></Star>
           ) : (
-            <Star2 className="stars-grey" key={item}></Star2>
+            <Star2 className="stars-grey" key={item + index}></Star2>
           )
         )}
     </div>

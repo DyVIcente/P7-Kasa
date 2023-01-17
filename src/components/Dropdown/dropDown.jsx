@@ -10,7 +10,7 @@ function Dropdown({ title, description }) {
   const [open, setOpen] = useState(false)
 
   const handleOpen = () => {
-    setOpen(!open) // on lui passe la nouvelle valeur de l'état
+    setOpen(!open) // on lui passe la nouvelle valeur de l'état, inverse la valeur actuelle de open
   } // du coup on passe handleOpen dans onClick, si false passe true et inverse
 
   return (
@@ -18,9 +18,9 @@ function Dropdown({ title, description }) {
       <button className="drop-btn" onClick={handleOpen}>
         <p className="drop-btn_text">{title}</p>
         {open ? (
-          <img className="vectorUp" src={VectorUp} alt="" />
+          <img className="vectorUp" src={VectorUp} alt="vector_up" />
         ) : (
-          <img className="vectorDown" src={Vector} alt="" />
+          <img className="vectorDown" src={Vector} alt="vector_down" />
         )}
       </button>
       {open ? (

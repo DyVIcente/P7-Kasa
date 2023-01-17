@@ -12,13 +12,13 @@ import {
 } from '../../components/index'
 
 function Logement() {
-  // Hook useParams pour recup l'id dans l'url
+  // Hook useParams de react-router-dom pour recup l'id dans l'url
   const { id } = useParams()
-  // On utilise find pour trouver le premier produit qui repond a la demande
+  // On utilise find pour trouver le premier produit qui repond a la demande egalité de l'id de l'objet et de l'url
   const logemenData = Data.find((product) => product.id === id)
   //return error si l'id ne corrrespond pas
   if (!logemenData) return <Error />
-
+  //décomposition de l'obhet pour créer des variables pour chacunes des props
   const {
     pictures,
     title,
