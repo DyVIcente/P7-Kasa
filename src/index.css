@@ -1,15 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700&display=swap');
+
+
+:root {
+  --color-grey: #F6F6F6;
+  --color-white: #FFFFFF;
+  --color-orange: #FF6060;
+  
+  --font-family: 'Montserrat', sans-serif;
+}
+  
 body {
   margin: 0;
-  font-family: 'Montserrat', sans-serif; 
+  font-family: var(--font-family);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   scroll-behavior: smooth;
 }
 
-
-
 a:visited {
-  color: #FF6060;
+  color: var(--color-orange);
 }
 
 
@@ -22,9 +31,8 @@ ul {
   list-style: none;
 }
 
-
 @media only screen and (min-width: 1024px) {
-  br{
+  br  {
     display: none;
     }
 }

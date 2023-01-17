@@ -5,11 +5,10 @@
 }
 
 @media (min-width:1024px) and (max-width:1439px) {
-
    .home-container {
-    margin-top: 50px;
-    margin-left: 92px;
-    margin-right: 92px;
+        margin-top: 50px;
+        margin-left: 92px;
+        margin-right: 92px;
     }
 }
 

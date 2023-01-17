@@ -1,8 +1,8 @@
 .tag-text {
-    background-color: #FF6060;
+    background-color: var(--color-orange);
     list-style: none;
     border-radius: 5px;
-    color: white;
+    color: var(--color-white);
     text-align: center;
     margin-right: 10px;
     margin-bottom: 10px;
@@ -19,7 +19,6 @@
 }
 
 @media only screen and (min-width: 1024px) {
-
     .tag-text{
         border-radius: 10px;
         font-size: 14px;
@@ -29,7 +28,7 @@
     }
 
     .tag-container{
-    align-items: flex-end;
+        align-items: flex-end;
     }
 
 

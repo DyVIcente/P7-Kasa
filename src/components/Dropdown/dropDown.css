@@ -1,54 +1,52 @@
-
-  .drop-container {
-    margin-bottom: 20px; 
-  }
+.drop-container {
+  margin-bottom: 20px; 
+}
   
-  .drop-container_text {
-    list-style-type: none;
-    margin: 5px 0;
-    padding: 0;
-    margin-top: -2px;
-  }
+.drop-container_text {
+  list-style-type: none;
+  margin: 5px 0;
+  padding: 0;
+  margin-top: -2px;
+}
   
-  .drop-container_text > li  {
-    max-width: 100%;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    background: #F6F6F6;
-    border: none; 
-  }
+.drop-container_text > li  {
+  max-width: 100%;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background: var(--color-grey);
+  border: none; 
+}
 
-  .drop-btn {
-    position: relative;
-    background-color: #FF6060;
-    width: 100%;
-    height: 30px;
-   
-    border: none;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 5px 12px;
-  }
+.drop-btn {
+  position: relative;
+  background-color: var(--color-orange);
+  width: 100%;
+  height: 30px;
+  border: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 12px;
+}
 
 
-  .drop-btn_text {
-    font-family: Montserrat;
-    font-size: 13px;
-    font-weight: 500;
-    line-height: 18.54px;
-    color: white;
-  }
+.drop-btn_text {
+  font-family: var(--font-family);
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 18.54px;
+  color: var(--color-white);
+}
 
-  .drop-container_text-description {
-    font-family: Montserrat;
-    color: #FF6060;
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 17.11px;
-    display: inline-block;
-    text-align: start;
-  }
+.drop-container_text-description {
+  font-family: var(--font-family);
+  color: var(--color-orange);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 17.11px;
+  display: inline-block;
+  text-align: start;
+}
 
 .vectorDown{
   position: relative;
@@ -59,42 +57,33 @@
   width: 16px;
 }
 
-
-
-
-
 @media only screen and (min-width: 1024px) {
+  .drop-btn_text{
+    font-size: 18px;
+    line-height: 25.67px;
+  }
 
+  .drop-btn{
+    height: 47px;
+    border-radius: 10px; 
+  }
 
+  .drop-container_text-description{
+    font-size: 24px;
+    line-height: 34.22px;
+  }
 
-.drop-btn_text{
-  font-size: 18px;
-  line-height: 25.67px;
-}
+  .vectorDown{
+    height: 14.06px;
+    width: 23.86px;
+  }
 
-.drop-btn{
-  height: 47px;
-  border-radius: 10px;
-  
-}
+  .vectorUp{
+    height: 14.06px;
+    width: 23.86px;
+  }
 
-.drop-container_text-description{
-  font-size: 24px;
-  line-height: 34.22px;
-}
-
-.vectorDown{
-  height: 14.06px;
-  width: 23.86px;
-}
-
-.vectorUp{
-  height: 14.06px;
-  width: 23.86px;
-}
-
-.drop-container{
-  margin-bottom: 31px;
-}
-
+  .drop-container{
+    margin-bottom: 31px;
+  }
 }
