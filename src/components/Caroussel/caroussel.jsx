@@ -46,7 +46,7 @@ function Caroussel({ pictures }) {
               </div>
             )
           })}
-        <div>
+        <div className={pictures.length === 1 ? 'hide' : ''}>
           <img
             className="vecR"
             src={VectorRight}

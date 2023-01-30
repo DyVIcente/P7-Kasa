@@ -18,6 +18,10 @@
     transition-duration: 1s ease;
 }
 
+.hide {
+    display: none;
+}
+
 .picture.active {
     position: absolute;
     opacity: 1;
