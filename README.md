@@ -2,6 +2,8 @@
 
 <p align="center"> ➡️ Projet 7 - Créez une application web de location immobilière avec React </p>
 
+<img src="https://user-images.githubusercontent.com/95346160/218710361-649b57aa-0dbd-42aa-aebe-02e6ddd72fd6.png" alt="image_kasa" />
+
 ## ✔️ Contexte:
 -Le site de Kasa a été codé il y a maintenant plus de 10 ans en ASP.NET avec un code legacy important.</br>
 -Refonte totale pour passer à une stack complète JavaScript avec Node et React.</br>
